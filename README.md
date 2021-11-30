@@ -10,7 +10,6 @@ Need to have curl installed beforehand.
 sudo apt update && sudo apt install curl
 ```
 
-
 # Hashes file
 The hashes file that I was using was recording any one who accessing the file "/" directory of my machine. The command I used was,
 

@@ -15,5 +15,5 @@ find / -amin -20 -type f -exec md5sum {} \; | awk '{print $1;}' 2>/dev/null > ha
 This was for a forensics challenge lab that I was completing for school. One can make use of any hash they feel like.
 
 ## References
-+ https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/.
++ https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
 + https://stackoverflow.com/questions/8314499/read-n-lines-at-a-time-using-bash

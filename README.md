@@ -4,6 +4,12 @@ The VirusTotal script that is created can be used to read md5 hashes that reside
 ```
 ./vt-file.sh /file/location
 ```
+## Pre-requsites
+Need to have curl installed beforehand.
+```
+sudo apt update && sudo apt install curl
+```
+
 
 # Hashes file
 The hashes file that I was using was recording any one who accessing the file "/" directory of my machine. The command I used was,
